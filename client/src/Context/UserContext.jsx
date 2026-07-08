@@ -7,7 +7,7 @@ export const userDataContext = createContext()
 //this'll take all app as child and provide its value they need
 export default function UserContext({children}) {
 
-   const BASEURL = 'https://virtual-ai-backend-9lbp.onrender.com'
+   const BASEURL = 'https://virtual-ai-backend-9lbp.onrender.com/api'
    const [userDetails, setUserdetails] = useState(null);
   const [appLoading, setAppLoading] = useState(true); // Gated initialization flag
 
