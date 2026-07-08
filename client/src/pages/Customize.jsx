@@ -5,7 +5,8 @@ import image3 from "../assets/image3.png";
 import { BiSolidImageAdd } from "react-icons/bi";
 import { IoSparkles } from "react-icons/io5";
 import { IoMdCloseCircleOutline } from "react-icons/io";
-import { userDataContext } from "../Context/userContext";
+import { userDataContext } from '../Context/UserContext'
+
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 import { IoMdArrowRoundBack } from "react-icons/io";

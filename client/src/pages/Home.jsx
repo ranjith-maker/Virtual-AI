@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { userDataContext } from '../Context/userContext'
+import { userDataContext } from '../Context/UserContext'
 import Card from '../components/Card'
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { useNavigate } from 'react-router-dom';

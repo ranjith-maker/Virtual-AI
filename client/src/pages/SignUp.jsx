@@ -5,7 +5,7 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 import { AiFillEye } from "react-icons/ai";
 import { BsFillEyeSlashFill } from "react-icons/bs";
-import { userDataContext } from '../Context/userContext';
+import { userDataContext } from '../Context/UserContext'
 
 
 export default function SignUp() {
