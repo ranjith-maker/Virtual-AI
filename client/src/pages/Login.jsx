@@ -12,7 +12,7 @@ export default function Login() {
 
 const initialState = {
 email : '',
-password : '.',
+password : '',
 }
 
 const [formdata, setFormdata ] = useState(initialState)
