@@ -50,7 +50,7 @@ function startListening() {
 
     recognition.onresult = async (ev) => {
       const transcript = ev.results[ev.results.length - 1][0].transcript.trim();
-      console.log("I said:", transcript);
+      // console.log("I said:", transcript);
       
       setUserTranscript(transcript); 
       setStatusMessage("Analyzing your command...");

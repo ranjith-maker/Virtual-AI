@@ -160,7 +160,7 @@ ${command}
       .replace(/```/g, "")
       .trim();
 
-console.log(cleanJSON);
+// console.log(cleanJSON);
 
     return JSON.parse(cleanJSON);
 
