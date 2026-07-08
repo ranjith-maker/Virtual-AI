@@ -163,7 +163,3 @@ return (
 
 
 
-
-// name : 'Rohith',
-// email : 'roh@gmail.com',
-// password : 'Google@10.',

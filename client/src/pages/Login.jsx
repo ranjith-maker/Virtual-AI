@@ -11,8 +11,8 @@ import { userDataContext } from '../Context/UserContext'
 export default function Login() {
 
 const initialState = {
-email : 'roh@gmail.com',
-password : 'Google@10.',
+email : '',
+password : '.',
 }
 
 const [formdata, setFormdata ] = useState(initialState)

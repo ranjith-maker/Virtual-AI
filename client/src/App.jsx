@@ -22,7 +22,7 @@ if (appLoading) {
 
 return (
   <Routes>
-    {/* If userDetails is present, do not let them see login/signup layouts */}
+    {/* If userDetails is present, I won't let the user see login/signup layouts */}
     <Route path="/signup" element={!userDetails ? <SignUp /> : <Navigate to="/customize" />} />
     <Route path="/login" element={!userDetails ? <Login /> : <Navigate to="/customize" />} />
     
