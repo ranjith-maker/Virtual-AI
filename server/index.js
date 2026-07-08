@@ -20,7 +20,7 @@ app.use(morgan('combined'))
 
 
 app.use(cors({
-    origin : 'http://localhost:5173',
+    origin : 'https://virtual-ai-frontend-9bsz.onrender.com',
     credentials: true
 
 }))
