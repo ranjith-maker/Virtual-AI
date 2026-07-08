@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
-import { userDataContext } from "../Context/userContext";
+import { userDataContext } from '../Context/UserContext'
+
 
 export default function Card({ image, isUploaded = false }) {
   const { selectedImg, setSelectedImg, setUploadedImg, setPreview } = useContext(userDataContext);
